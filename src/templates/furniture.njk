@@ -1,0 +1,31 @@
+<mjml>
+  {% block mjhead %}
+  <mj-head>
+    <mj-title>DEFAULT TITLE</mj-title>
+  </mj-head>
+  {% endblock %}
+
+  {% block mjbody %}
+  <mj-body background-color='{{ branding.mjBodyBGColor }}'>
+    {% block header %}
+      {% include './_includes/_header1.njk' %}
+    {% endblock %}
+
+    {% block hero %}
+      {% include './_includes/_hero1.njk' %}
+    {% endblock %}
+
+    {% block content %}
+    <mj-section>
+      <mj-column>
+        <mj-text>DEFAULT BODY</mj-text>
+      </mj-column>
+    </mj-section>
+    {% endblock %}
+
+    {% block footer %}
+    {% endblock %}
+    
+  </mj-body>
+  {% endblock %}
+</mjml>

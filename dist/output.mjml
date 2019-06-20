@@ -1,0 +1,186 @@
+<mjml>
+  
+  <mj-head>
+    <mj-title>DEFAULT TITLE</mj-title>
+  </mj-head>
+  
+
+  
+  <mj-body background-color='lightgrey'>
+    
+      <!--Recruiter name section-->
+<mj-section background-color='#0057a4'>
+  <mj-column>
+    <mj-text color='#fff'
+             font-size='20px'
+             font-weight='bold'
+             align='center'>
+      Recruiter One
+    </mj-text>
+
+    <mj-divider border-width='2px'
+                border-style='solid'
+                border-color='#0057a4'
+                container-background-color='#ffdb01'>
+    </mj-dividier>
+  </mj-column>
+</mj-section>
+
+<!--Logo section-->
+<mj-section background-color='#fff'>
+  <mj-column>
+    <mj-image width='300px' 
+              src='../src/images/primary-logo.png'
+              fluid-on-mobile='true'
+              >
+    </mj-image>
+  </mj-column>
+
+  <mj-column>
+    <mj-image width='300px' 
+              src='../src/images/secondary-logo.png'>
+    </mj-image>
+  </mj-column>
+</mj-section>
+
+
+
+    
+
+    
+      <mj-section background-url='../src/images/hero.png'
+            background-size='cover'
+            background-repeat='no-repeat'>
+
+  <mj-column>
+    <mj-text align='center'
+             color='#fff'
+             font-size='40px'
+             font-weight='bold'
+             padding='40px 0 160px'>
+             Hero message
+    </mj-text>
+
+    <mj-button background-color='#0057a4'
+               color='#ffdb01'
+               font-weight='bold'
+               href='#'>
+      Button
+    </mj-button>
+  </mj-column>
+</mj-section>
+    
+
+    
+  <mj-section background-color='#fff'>
+  <mj-column width='400px'>
+
+    <mj-text color='#444444'
+             font-size='20px'
+             font-family='Lato'>
+      Introduction text
+    </mj-text>
+
+    <mj-text color='#444444'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
+    </mj-text>
+
+    <mj-button color='#0057a4'
+               background-color='#ffdb01'
+               href='#'
+               font-weight='bold'>
+      Button
+    </mj-button>
+
+  </mj-column>
+</mj-section>
+
+  
+    <mj-section border-bottom='1px solid #ffdb01'
+                background-color='#e5e7ea'>
+      <mj-column width='100%'>
+        <mj-text text-transform='capitalize'
+                font-weight='bold'>
+          job1
+        </mj-text>
+      </mj-column>
+
+      <mj-column width='50%'>
+        <mj-image src="../src/images/job1-logo.png"
+                  fluid-on-mobile='true'>
+        </mj-image>
+      </mj-column>
+
+      <mj-column width='50%'>
+        <mj-text>1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.1</mj-text>
+      </mj-column>
+    </mj-section>
+  
+    <mj-section border-bottom='1px solid #ffdb01'
+                background-color='#e5e7ea'>
+      <mj-column width='100%'>
+        <mj-text text-transform='capitalize'
+                font-weight='bold'>
+          job2
+        </mj-text>
+      </mj-column>
+
+      <mj-column width='50%'>
+        <mj-image src="../src/images/job1-logo.png"
+                  fluid-on-mobile='true'>
+        </mj-image>
+      </mj-column>
+
+      <mj-column width='50%'>
+        <mj-text>2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.2</mj-text>
+      </mj-column>
+    </mj-section>
+  
+    <mj-section border-bottom='1px solid #ffdb01'
+                background-color='#e5e7ea'>
+      <mj-column width='100%'>
+        <mj-text text-transform='capitalize'
+                font-weight='bold'>
+          job3
+        </mj-text>
+      </mj-column>
+
+      <mj-column width='50%'>
+        <mj-image src="../src/images/job1-logo.png"
+                  fluid-on-mobile='true'>
+        </mj-image>
+      </mj-column>
+
+      <mj-column width='50%'>
+        <mj-text>3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.3</mj-text>
+      </mj-column>
+    </mj-section>
+  
+
+  <mj-section background-color='#fff'>
+
+  <mj-column>
+    <mj-image src='../src/images/bookcase.jpg'
+              border='2px #0057a4 solid'>
+    </mj-image>
+  </mj-column>
+
+  <mj-column>
+    <mj-text font-family='Lato'>
+      article1
+    </mj-text>
+
+    <mj-text color='#444444'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.
+    </mj-text>
+  </mj-column>
+
+</mj-section>
+
+
+    
+    
+    
+  </mj-body>
+  
+</mjml>

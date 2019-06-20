@@ -1,0 +1,36 @@
+<!--Recruiter name section-->
+<mj-section background-color='{{ branding.brandColor1 }}'>
+  <mj-column>
+    <mj-text color='{{ branding.brandColor4 }}'
+             font-size='20px'
+             font-weight='bold'
+             align='center'>
+      {{ model.recruiterName }}
+    </mj-text>
+
+    <mj-divider border-width='2px'
+                border-style='solid'
+                border-color='{{ branding.brandColor1 }}'
+                container-background-color='{{ branding.brandColor2 }}'>
+    </mj-dividier>
+  </mj-column>
+</mj-section>
+
+<!--Logo section-->
+<mj-section background-color='#fff'>
+  <mj-column>
+    <mj-image width='300px' 
+              src='{{ branding.primaryLogo }}'
+              fluid-on-mobile='true'
+              >
+    </mj-image>
+  </mj-column>
+
+  <mj-column>
+    <mj-image width='300px' 
+              src='{{ branding.secondaryLogo }}'>
+    </mj-image>
+  </mj-column>
+</mj-section>
+
+

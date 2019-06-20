@@ -1,0 +1,29 @@
+{% extends "furniture.njk" %}
+
+{% block content %}
+  {% include './_includes/_intro-text1.njk' %}
+
+  {% for job in model.jobs %}
+    <mj-section border-bottom='1px solid {{ branding.brandColor2 }}'
+                background-color='#e5e7ea'>
+      <mj-column width='100%'>
+        <mj-text text-transform='capitalize'
+                font-weight='bold'>
+          {{ job.name }}
+        </mj-text>
+      </mj-column>
+
+      <mj-column width='50%'>
+        <mj-image src="{{ job.logo }}"
+                  fluid-on-mobile='true'>
+        </mj-image>
+      </mj-column>
+
+      <mj-column width='50%'>
+        <mj-text>{{ job.desc }}</mj-text>
+      </mj-column>
+    </mj-section>
+  {% endfor %}
+
+  {% include './_includes/_article1.njk' %}
+{% endblock %}
